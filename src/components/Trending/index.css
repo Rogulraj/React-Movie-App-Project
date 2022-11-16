@@ -1,0 +1,74 @@
+.trending-loader-container {
+  height: 120px;
+  width: 100%;
+  background: #0d0d0d;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo-image {
+  height: 100px;
+  width: 130px;
+  border-radius: 8px;
+}
+.slick-item {
+  margin: 0px 10px;
+}
+
+.slick-prev::before,
+.slick-next::before {
+  color: #ffffff;
+}
+.trending-failed-view {
+  height: 120px;
+  width: 100%;
+  background: #0d0d0d;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trending-error-msg {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+.trending-try-again-button {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  color: #171f46;
+  width: 69px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 4px;
+  border-style: none;
+}
+
+@media screen and (min-width: 768px) {
+  .trending-loader-container {
+    height: 180px;
+    width: 100%;
+    background: #0d0d0d;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .slick-item {
+    margin: 0px 18px;
+  }
+  .logo-image {
+    height: 180px;
+    width: 230px;
+    border-radius: 8px;
+    margin: 0px 10px;
+  }
+}

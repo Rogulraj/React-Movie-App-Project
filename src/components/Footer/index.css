@@ -1,0 +1,31 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0px 0px 0px;
+  background-color: #131313;
+}
+.footer-media-icon-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footer-contact-us-title {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+}
+.footer-list-item {
+  margin: 0px 6px;
+}
+@media screen and (min-width: 768px) {
+  .footer-list-item {
+    margin: 0px 15px;
+  }
+}

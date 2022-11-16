@@ -1,0 +1,211 @@
+.account-container {
+  background-color: #131313;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.account-card {
+  background-color: #e5e5e5;
+  height: 80vh;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+}
+.account-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #131313;
+}
+.member-ship-card {
+  display: flex;
+  flex-direction: row;
+}
+.member-ship-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #94a3b8;
+  padding-right: 20px;
+}
+.member-ship-user-name {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1e293b;
+}
+.member-ship-password {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #64748b;
+}
+.plan-card {
+  display: flex;
+  flex-direction: row;
+}
+.plan-details-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.plan-heading {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #94a3b8;
+  padding-right: 20px;
+}
+.plan-type {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #1e293b;
+  padding-right: 20px;
+}
+.plan-type-details {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e293b;
+  height: 20px;
+  width: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #1e293b;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.log-out-card {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.log-out-button {
+  height: 40px;
+  width: 90px;
+  background: #e50914;
+  border-radius: 4px;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  border-style: none;
+}
+@media screen and (min-width: 768px) {
+  .account-card {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .account-heading {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #131313;
+  }
+  .member-ship-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .member-ship-heading {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #94a3b8;
+  }
+  .member-ship-user-name {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1e293b;
+  }
+  .member-ship-password {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #64748b;
+  }
+  .plan-card {
+    display: flex;
+    flex-direction: row;
+  }
+  .plan-details-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .plan-heading {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #94a3b8;
+  }
+  .plan-type {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #1e293b;
+  }
+  .plan-type-details {
+    height: 25px;
+    width: auto;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #1e293b;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #1e293b;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .log-out-card {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .log-out-button {
+    height: 40px;
+    width: 90px;
+    background: #e50914;
+    border-radius: 4px;
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    border-style: none;
+  }
+}

@@ -1,0 +1,103 @@
+.popular-loader-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.popular-container {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #131313;
+  display: flex;
+  flex-direction: column;
+}
+.failure-view-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-view-image {
+  height: 172px;
+  width: 233px;
+}
+.failure-view-description {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.failure-view-try-again-button {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  width: 107px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 4px;
+  border-style: none;
+}
+.popular-video-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.popular-video-list-item {
+  margin: 10px 15px;
+  cursor: pointer;
+}
+.popular-video-image {
+  height: 100px;
+  width: 110px;
+  border-radius: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view-image {
+    height: 276px;
+    width: 375px;
+  }
+  .failure-view-description {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .failure-view-try-again-button {
+    font-family: 'HK Grotesk';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    color: #171f46;
+    width: 110px;
+    height: 48px;
+    background: #ffffff;
+    border-radius: 4px;
+    border-style: none;
+  }
+  .popular-video-list {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+@media screen and (min-width: 780px) {
+  .popular-video-image {
+    height: 180px;
+    width: 255px;
+    border-radius: 8px;
+  }
+}
